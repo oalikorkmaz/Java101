@@ -29,6 +29,10 @@ public class Main {
 
         toplam = mat + fizik + kimya + muzik + turkce + tarih;
         System.out.println("Genel Not Ortalamanız: " + toplam/6);
+        
+        String sonuc = ((toplam/6)>60) ? "Sınıfı geçti." : "Sınıfta kaldı.";
+        System.out.println(sonuc);
+        
 
     }
 }
