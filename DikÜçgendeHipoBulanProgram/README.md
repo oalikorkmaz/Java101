@@ -11,8 +11,15 @@ Formül
 
 Alan * Alan = 𝑢 * (𝑢 − 𝑎)* (𝑢 − 𝑏) * (𝑢 − 𝑐)
 
-```Java
-//Scanner ile kullanıcan veri girişi
+```java
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        //dik üçgende hipotenüs bulma
+	int dikkenar1,dikkenar2,hipo; //tanımlar
+    Scanner scan = new Scanner(System.in); //Scanner ile kullanıcan veri girişi
         System.out.print("Birinci Dik Kenar Uzunluğunu giriniz: ");
         dikkenar1 = scan.nextInt(); // klavyeden yazılan değerin değişkene atılması
         System.out.print("İkinci Dik Kenar Uzunluğunu giriniz:");
